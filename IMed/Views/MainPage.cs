@@ -18,14 +18,14 @@ namespace IMed
                     itemsPage.Add(new NavigationPage(new ItemsPage()){ Title = "Buscar", Icon = "tab_feed.png" });
                     itemsPage.Add(new NavigationPage(new ItemsPage()){ Title = "Promocões", Icon = "tab_feed.png" });
                     itemsPage.Add(new NavigationPage(new AboutPage()){ Title = "Pedidos", Icon = "tab_about.png" });
-                    itemsPage.Add(new NavigationPage(new AboutPage()){ Title = "Eu", Icon = "tab_about.png" });
+                    itemsPage.Add(new NavigationPage(new AboutPage()){ Title = "User", Icon = "tab_about.png" });
 
                     break;
                 default:
                     itemsPage.Add(new ItemsPage() { Title = "IMed", Icon = "tab_feed.png" });
                     itemsPage.Add(new AboutPage() { Title = "Promocões", Icon = "tab_about.png" });
                     itemsPage.Add(new ItemsPage() { Title = "Pedidos", Icon = "tab_feed.png" });
-                    itemsPage.Add(new AboutPage() { Title = "Eu", Icon = "tab_about.png" });
+                    itemsPage.Add(new AboutPage() { Title = "User", Icon = "tab_about.png" });
                     break;
             }
 
